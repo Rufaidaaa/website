@@ -1,0 +1,518 @@
+/* body{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    background-image: url(food4.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    position: relative;
+     width: 100%;
+    height:700px;
+}
+.site{
+   position: absolute;
+   top:50%;
+   left:15%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   z-index: 2;
+   font-family: sans-serif;
+}
+.site h1{
+    font-size: 60px;
+    color: #ab9e9e;
+    text-align: center;
+    margin: 0;
+}
+.overlay{
+    background: #d8d0d007;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+
+}
+.top{
+    margin: 0;
+    
+}
+
+.sites a{
+    padding: 5px;
+}
+.fa-facebook{
+    color:white !important;
+    position: fixed;
+}
+.fa-twitter{
+    color:white !important;
+    position: fixed;
+}
+.fa-instagram{
+    color:white !important;
+    position: fixed;
+}
+.fa-youtube{
+    color:white !important;
+    position: fixed;
+}
+.fa-whatsapp{
+    color:white !important;
+     position: fixed;
+}
+.sites ul {
+   list-style-type: none;
+   padding: 0;
+}
+.sites{
+    top:20px;
+}
+
+.nav-link{
+    color:white !important;
+    font-weight: bold !important;
+}
+.box{
+    background-color: yellow;
+    height:800px;
+    width:100%;
+   
+}
+.small{
+   
+    width:30%;
+    height:70%;
+    background-image: url(sea.png);
+    padding: 2rem;
+
+    border:10px solid white;
+   
+}
+.extra{
+    width:40%;
+    height:50%;
+    position: relative;
+    bottom:40%;
+    left:32%;
+    background-color: white;
+
+}
+.butt{
+    background-color: transparent;
+    border:1px solid green;
+    color: green;
+    width:23%;
+    height:10%;
+    position: relative;
+    top:1%;
+    left:65%;
+    
+    
+}
+.extra p{
+    color: green;
+    width:43%;
+    padding:5px;
+    padding-top: 7rem;
+    padding-left: 4rem;
+ 
+} */
+
+.bla{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(food3.png) no-repeat ;
+
+    background-size: cover;
+   
+    
+    
+}
+.leg{
+    text-align: center;
+}
+.about{
+    background-image: url(food3.png);
+    background-size: cover;
+    
+    width:100%;
+    height:80vh;
+}
+.navbar{
+    position:sticky;
+    top:0;
+    
+}
+
+.about h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color: white;
+    font-family: arial;
+    text-shadow: 4px 4px 6px grey;
+
+}
+.us{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+    color: white;
+    font-family: arial;
+    text-shadow: 4px 4px 6px grey; 
+}
+.intro{
+    padding:15px;
+    margin:0 auto;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.field{
+    align-items: center;
+}
+.fa-user-circle{
+    font-size: 30px !important;
+}
+.fa-truck{
+    font-size: 30px !important;
+    margin-right: 15px;
+    color: red !important;
+}
+.nav-link{
+    color:white !important;
+   
+}
+
+.main{
+    background-image: url(black.jpg);
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+.class{
+    background-image: url(food3.png);
+    width:100%;
+    height:90vh;
+    background-size: cover;
+    
+}
+.log{
+    background-image: url(food3.png) ;
+    width:100%;
+    height:100vh;
+    background-size: cover;
+}
+
+.collapse {
+    width:100%;
+    height:80px;
+    background-color: #0001;
+    
+}
+.tails{
+    background-image: url(bg.png) ;
+    background-size: cover;
+    padding: 40px 0;
+}
+.tails h1{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px grey;
+}
+.contactus{
+    max-width: 700px;
+    margin: auto;
+    padding:0 10px;
+    overflow: hidden;
+   
+    background-color: #0001;
+}
+.icons{
+    color:white !important;
+    margin:  auto;
+    text-align: center;
+    font-size: 20px;
+    
+    
+   
+}
+
+.login{
+    max-width: 450px;
+    margin: auto;
+    padding:40px 50px;
+    overflow: hidden;
+    background-color: #0009;
+    transition: .25s;
+    cursor: pointer;
+}
+.signup{
+    max-width: 500px;
+    margin: auto;
+    padding:40px 50px;
+    overflow: hidden;
+    background-color: #0009;
+    transition: .25s;
+    cursor: pointer;
+}
+.form
+{
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    margin:25px 0;
+    border:0;
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+    transition: .5s;
+    background-color: #0009;
+}
+.span{
+    color: white;
+    margin-top: 20px;
+}
+.inside{
+    color: white;
+    transition: .5s;
+    background-color: #0009;
+}
+.reg{
+    color: white;
+    margin-top:80px;
+    margin-bottom:1px;
+    
+}
+
+.forms{
+    
+   
+    
+    width:100%;
+    overflow: hidden;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin:8px 0;
+    border:0;
+    padding: 8px 0;
+    border-bottom: 1px solid #0009;
+    background-color: #0001;
+}
+.forms i{
+    width:26px;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.forms input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80px;
+    float: left;
+    margin: 10px;
+}
+.btns{
+    float: right;
+    border:0;
+    background-color: #0009;
+    color: #fff;
+    padding:10px 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btns:hover{
+    background: #2980b9;
+}
+textarea.form{
+    resize:none ;
+    height:120px;
+}
+.form:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+}
+.main h1{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 90px;
+    color: indigo;
+    font-family: 'Piedra', cursive;
+}
+.card-title{
+    text-align: center;
+    color: green;
+}
+.card-text{
+    text-align: center;
+    color: grey;
+}
+.btn{
+    background-color: #0001;
+    border: 1px solid grey;
+    color:grey;
+   width:100%;
+    
+}
+.heh{
+    background-color: grey;
+    
+    
+}
+
+.hello{
+    text-align: left;
+    padding-top:50px;
+    color: white;
+   
+    padding:50px;
+}
+
+.heheh{
+   margin-bottom:40px;
+   color: white;
+  
+    
+}
+.hah{
+    text-align: left;
+    padding-top:50px;
+    color: white;
+   
+    padding:50px;
+}
+
+.head{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.head h1{
+    text-shadow: 2px 2px 4px grey;
+}
+.hi{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px grey;
+}
+.hell{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-size: 40px;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px grey;
+}
+
+.navbar-nav li:hover{
+    background-color: #f39d1a;
+
+}
+.navbar-nav li{
+    transition: 0.8s all;
+}
+
+.mail{
+    border: 1px solid white;
+    background-color: grey;
+}
+.subs{
+    margin: 8px;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.subs:hover{
+    background: grey;
+}
+.social a{
+    padding: 10px;
+    transition: .5s;
+
+    
+   
+}
+.fa-facebook{
+    color:#3b5998;
+}
+
+.fa-twitter{
+    color:#00aced;
+}
+.fa-instagram{
+    color:#bc2a8d ;
+}
+.fa-youtube{
+    color:#bb0000;
+}  
+
+.social{
+    margin-top:50px ;
+}
+
+.fa-whatsapp{
+    
+     color:green;
+}
+.card{
+    width:250px;
+    margin-bottom: 5px;
+  
+}
+.cards{
+    width:350px;
+    margin-bottom: 5px;
+   
+}
+
+.arrival{
+    margin-top: 50px;
+}
+@media screen and (min-width: 576px){
+    
+    .bla{
+        background-image: url(food3.png);
+        background-size: cover;
+    }
+    .box{
+        width:70%;
+        position: absolute;
+        left:10%;
+    }
+    
+}
+@media screen and (max-width: 576px){
+.arrival{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+}
+@media screen and (max-width: 900px){
+    .box{
+        width:40%;
+        position: absolute;
+        left:20%;
+    }
+}
